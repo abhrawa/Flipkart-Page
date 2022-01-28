@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar
+{
+    background-color: #2874f0;
+    height: 56px;
+    display: flex;
+    text-align: justify;
+
+}
+span {
+    font-size: 11px;
+    font-style: italic;
+    margin-top: -1px;
+    
+}
+.navimg{
+    margin-left: 200px;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.schbar{
+    width: 525px;
+    height: 35px;
+    padding: 10px;
+}
+.bttn{
+    height: 42px;
+    width: 30px;
+    padding: 5px;
+}
+.loginbtn{
+    width: 121px;
+    height: 31px;
+    padding: 2px;
+}
+.searchbar{
+    margin-top: 8px;
+    margin-left: 8px;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 2px;
+
+}
+.Login
+{
+    margin-top: 12px;
+    height: 45px;
+    margin-left: 180px;
+}
+.More{
+    color: white;
+    margin-left: 50px;
+}
+.Cart{
+    color: white;
+    margin-left: 10px;
+}
+.cartimg
+{
+    margin-top: 20px;
+    margin-left: 80px;
+    color: white;
+}
+

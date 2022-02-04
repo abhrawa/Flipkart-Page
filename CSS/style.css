@@ -1,69 +1,167 @@
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, Arial, sans-serif;
 }
-.navbar
-{
-    background-color: #2874f0;
-    height: 56px;
-    display: flex;
-    text-align: justify;
-
+.navbar {
+  background-color: #2874f0;
+  height: 56px;
+  display: flex;
+  text-align: justify;
+  position: sticky;
 }
 span {
-    font-size: 11px;
-    font-style: italic;
-    margin-top: -1px;
+  font-size: 11px;
+  font-style: italic;
+  margin-top: -1px;
+}
+.navimg {
+  margin-left: 200px;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.schbar {
+  width: 525px;
+  height: 35px;
+  padding: 10px;
+}
+.bttn {
+  height: 42px;
+  width: 30px;
+  padding: 5px;
+}
+.loginbtn {
+  width: 121px;
+  height: 31px;
+  padding: 2px;
+}
+.searchbar {
+  margin-top: 8px;
+  margin-left: 8px;
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 2px;
+}
+.Login {
+  margin-top: 12px;
+  height: 45px;
+  margin-left: 180px;
+}
+.More {
+  color: white;
+  margin-left: 50px;
+}
+.Cart {
+  color: white;
+  margin-left: 10px;
+}
+.cartimg {
+  margin-top: 20px;
+  margin-left: 80px;
+  color: white;
+}
+.firstcontainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 120px 20px 120px;
+  border: 2px;
+}
+.smallimg img {
+  width: 64px;
+  height: 64px;
+  margin-top: 18px;
+}
+.sliderimg {
+  margin: 30px 10px 10px 10px;
+  padding: 7px;
+  min-width: 1480px;
+}
+.secondcontainer {
+  background-color: #f0f0f0;
+}
+
+.btmlogo {
+  display: flex;
+  align-items: center;
+}
+.EP {
+  display: flex;
+  justify-content: space-between;
+}
+.third-container img {
+  padding: 2px;
+  padding-top: 0;
+  margin-bottom: 30px;
+  background-color: #f0f0f0;
+  padding-bottom: 5px;
+}
+
+
+.viewall {
+  background: #2874f0;
+  color: #fff;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+  border: none;
+  padding: 10px 20px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.lftbox {
+  display: flex;
+  display: inline-block;
+  flex-direction: column;
+  margin-right: 10px;
+}
+.Topoffers {
+  text-align: center;
+  margin-top: 120px;
+}
+.viewbtn {
+  text-align: center;
+  margin-bottom: 12px;
+}
+.laptble {
+  display: inline-block;
+  text-align: center;
+}
+.forth-container {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.middlebox {
+  display: flex;
+    justify-content: space-between;
     
 }
-.navimg{
-    margin-left: 200px;
-    margin-top: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.schbar{
-    width: 525px;
-    height: 35px;
-    padding: 10px;
-}
-.bttn{
-    height: 42px;
-    width: 30px;
-    padding: 5px;
-}
-.loginbtn{
-    width: 121px;
-    height: 31px;
-    padding: 2px;
-}
-.searchbar{
-    margin-top: 8px;
-    margin-left: 8px;
-    background-color: white;
-    margin-bottom: 10px;
-    padding: 2px;
-
-}
-.Login
-{
-    margin-top: 12px;
-    height: 45px;
-    margin-left: 180px;
-}
-.More{
-    color: white;
-    margin-left: 50px;
-}
-.Cart{
-    color: white;
-    margin-left: 10px;
-}
-.cartimg
-{
-    margin-top: 20px;
-    margin-left: 80px;
-    color: white;
+.Topoffers{
+  margin-bottom: 35px;
 }
 
+.lftbox2{
+  display: flex;
+  display: inline-block;
+  flex-direction: column;
+  margin-right: 10px;
+  
+}
+.Fashion-Deals{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.Fifthcontainer{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  
+}
+.forthhbox{
+  background-color: #f0f0f0;
+  margin-top: 10px;
+  padding: 0px 0px 4px 0px
+}
